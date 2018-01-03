@@ -62,7 +62,7 @@ def calculate_accuracy(actual, predicted):
     predicted = np.argmax(predicted, 1)
     return (100 * np.sum(np.equal(predicted, actual)) / predicted.shape[0])
 
-num_epochs = 10
+num_epochs = 100
 
 import time
 
